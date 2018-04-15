@@ -1,8 +1,7 @@
 # react-redux-observable
 
 <p>
-  <span> <img src="https://redux-observable.js.org/logo/logo-small.gif" /> </span>
-  <span> <img src="https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-461264.png" /> </span>
+  <img src="https://redux-observable.js.org/logo/logo-small.gif" />
  </p>
 A React starter pack composed with <a href="https://github.com/redux-observable/redux-observable">redux-observable</a>, <a href="https://github.com/jamiebuilds/react-loadable">react-loadable</a>, <a href="https://reacttraining.com/react-router/web/guides/philosophy"> react-router</a>,  <a href="https://react-materialize.github.io/#/">react-materialize</a> and <a href="https://github.com/chentsulin/sweetalert-react">sweetalert-react</a>
 
