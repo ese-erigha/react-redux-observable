@@ -32,8 +32,8 @@ const PostItem = (props)=>{
             <Card className="hand list-item">
                <Row>
                     <Col l={12} s={12} m={12}>
-                        <div>{props.post.title}</div>
-                        <div>{props.post.body}</div>   
+                        <div className="post-title">{props.post.title}</div>
+                        <div className="post-body">{props.post.body}</div>   
                     </Col>
                </Row>
             </Card>

@@ -22,28 +22,3 @@ export const fetchPostsEpic = action$ =>
                                  return Observable.of(postsActions.fetchPostsErrorAction(error));
                              });
         });
-
-// export const fetchCategoryListEpic = action$ =>
-
-//             action$.ofType(categoriesActions.FETCH_CATEGORY_LIST)
-//             .switchMap(action =>{
-//                 return Observable.fromPromise(http.get(`${categoryListBaseUrl}${action.payload}`))
-//                                  .map(response => categoriesActions.fetchCategoryListSuccessAction(response))
-//                                  .startWith({type: categoriesActions.FETCH_CATEGORY_LIST_PENDING})
-//                                  .catch((error)=>{
-//                                     return Observable.of(categoriesActions.fetchCategoryListErrorAction(error));
-//                                  });
-//             });
-
-
-// export const fetchMealEpic = action$ =>
-
-//             action$.ofType(categoriesActions.FETCH_MEAL)
-//             .switchMap(action =>{
-//                 return Observable.fromPromise(http.get(`${mealBaseUrl}${action.payload}`))
-//                                  .map(response => categoriesActions.fetchMealSuccessAction(response))
-//                                  .startWith({type: categoriesActions.FETCH_MEAL_PENDING})
-//                                  .catch((error)=>{
-//                                     return Observable.of(categoriesActions.fetchMealErrorAction(error));
-//                                  });
-//             });

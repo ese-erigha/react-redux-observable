@@ -37,7 +37,11 @@ const UserItem = (props)=>{
             <Card className="hand list-item" onClick={fetchPosts.bind(this,props.user.id)}>
                <Row>
                     <Col l={12} s={12} m={12}>
-                        <div>{props.user.name}</div>  
+                        <div className="title">{props.user.name}</div>
+                        <div className="email">{props.user.email}</div>
+                        <div className="address">
+                            {props.user.address.suite}, {props.user.address.street}, {props.user.address.city}
+                        </div>  
                     </Col>
                </Row>
             </Card>

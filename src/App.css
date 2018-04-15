@@ -51,11 +51,32 @@ nav{
 }
 
 .top-categories .list-item .title{
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 1.6rem;
     font-weight: bold;
     font-family: Arial,Helvetica,sans-serif;
     color: rgba(0,0,0,.84);
+}
+
+.top-categories .list-item .email{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #3f3f41;
+}
+
+.top-categories .list-item .post-title{
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: rgba(0,0,0,.84);
+}
+
+.top-categories .list-item .post-body{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', serif;
+    
 }
 
 .list-item .description{
