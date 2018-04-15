@@ -1,2 +1,2 @@
 # recipes
-A react.js project displaying recipes from themealdb.com
+A react.js project displaying users and posts using the https://jsonplaceholder.typicode.com/
