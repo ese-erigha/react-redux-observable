@@ -1,0 +1,118 @@
+.hand{
+    cursor: pointer;
+}
+
+nav{
+    background-color: #e0301e;
+}
+.brand-logo{
+    margin-left: 3px;
+    /* font-style: italic; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content-header-wrapper{
+    position: sticky;
+    top: 60px;
+    z-index: 12;
+    margin-top: 10px;
+}
+
+.content-header{
+    background-color: #404041;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.content-header h5{
+    font-size: 1.84rem;
+}
+
+.list-item .card-content{
+    padding: 5px 25px 5px 0px;
+}
+
+.list-item .avatar{
+    width: 100%!important;
+} 
+
+.list-item .avatar img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 25px;
+}
+
+.top-categories .list-item .title{
+    margin-top: 50px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: rgba(0,0,0,.84);
+}
+
+.list-item .description{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.category-list .list-item .title{
+    margin-top: 80px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: rgba(0,0,0,.84);
+}
+
+.category-list .list-row .card-panel{
+    padding: 0px;
+}
+
+.card-panel{
+    padding: 0px;
+}
+
+.category-list .list-row .card-panel .title{
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.meal-header .content-header .title{
+    font-size: 1.84rem;
+}
+
+.meal-header .content-header .category{
+    margin-left: 20px;
+    font-size: 1.24rem;
+    font-style: italic;
+}
+
+.avatar{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.banner{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.instruction-text{
+    text-align: justify;
+    font-size: 1.2rem;
+    letter-spacing: 0.01rem;
+}
