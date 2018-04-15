@@ -46,6 +46,7 @@ const Users = Loadable({
   timeout: loaderTimeout,
 });
 
+//Posts component
 const Posts = Loadable({
   loader: () => import('./modules/posts/containers/Posts'),
   loading:  Loading,
